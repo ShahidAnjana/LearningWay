@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Top Navigation Bar */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 10px 20px;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Main Heading */
+.site-title {
+    background: linear-gradient(to right, #0073e6, #00a859, #ff9800);
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Secondary Navigation */
+.secondary-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.secondary-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.right-search input {
+    padding: 5px;
+    width: 150px;
+}
+
+/* Subject Sections */
+.subjects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.subject {
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 30%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .top-nav, .secondary-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .subjects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subject {
+        width: 80%;
+    }
+}

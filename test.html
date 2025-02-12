@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learning Way - Explore Chemistry, Biology, and Physics with structured discussions and interactive elements.">
+    <title>Learning Way</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header>
+        <nav class="top-nav">
+            <div class="left-links">
+                <a href="#">About</a>
+                <a href="#">Privacy</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="right-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">YouTube</a>
+            </div>
+        </nav>
+
+        <!-- Main Heading -->
+        <h1 class="site-title">Learning Way</h1>
+
+        <!-- Secondary Navigation -->
+        <nav class="secondary-nav">
+            <div class="left-links">
+                <a href="#chemistry">Chemistry</a>
+                <a href="#biology">Biology</a>
+                <a href="#physics">Physics</a>
+            </div>
+            <div class="right-search">
+                <input type="text" id="search" placeholder="Search...">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Content Sections -->
+    <main>
+        <section class="subjects">
+            <div class="subject" id="chemistry">
+                <img src="chemistry.jpg" alt="Chemistry" onclick="scrollToSection('chemistry')">
+                <h2>Chemistry</h2>
+                <p>Explore the world of chemical reactions, elements, and compounds.</p>
+            </div>
+
+            <div class="subject" id="biology">
+                <img src="biology.jpg" alt="Biology" onclick="scrollToSection('biology')">
+                <h2>Biology</h2>
+                <p>Dive into the study of life, organisms, and ecosystems.</p>
+            </div>
+
+            <div class="subject" id="physics">
+                <img src="physics.jpg" alt="Physics" onclick="scrollToSection('physics')">
+                <h2>Physics</h2>
+                <p>Understand the fundamental laws of nature and the universe.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Learning Way. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
